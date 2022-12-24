@@ -1,9 +1,9 @@
 import librosa #ses dosyalarının nitelikleri için kullanılan kütüphanedir.
 import torch #machineleraning kütüphanesi, doğal dil işleme, bilgisayarla görme gibi fonksiyonları var.
 from transformers import Wav2Vec2ForCTC, Wav2Vec2Processor
-import speech_recognition as sr
+#import speech_recognition as sr
 
-r = sr.Recognizer()
+#r = sr.Recognizer()
 
 
 
